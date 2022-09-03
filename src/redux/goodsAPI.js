@@ -5,7 +5,7 @@ export const goodsAPI = createApi({
   baseQuery: fetchBaseQuery({baseUrl: 'http://localhost:3002/'}),
   endpoints: (build) => ({
     getGoods: build.query({
-      query: () => 'goods',
+      query: (limit = '') => `goods?${ limit && `_limit=${limit}`}`,
     })
   })
 })
