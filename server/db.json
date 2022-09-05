@@ -11,6 +11,18 @@
     {
       "id": 3,
       "name": "icecream"
+    },
+    {
+      "name": "shower",
+      "id": 4
+    },
+    {
+      "name": "apple",
+      "id": 5
+    },
+    {
+      "name": "tomato",
+      "id": 6
     }
   ]
 }
